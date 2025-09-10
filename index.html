@@ -10,6 +10,14 @@
             color: aliceblue;
         }
 
+            .highlight {
+      background-color: yellow;
+      color: black;
+      font-weight: bold;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
     </style>
 </head>
 <body>
@@ -25,6 +33,47 @@
         </button>
     </section>
 
+
+    <section id="example-2" >
+        <h2 >Traversing the DOM</h2>
+        <ul id="citiesList">
+            <li class="chai">New York</li>
+            <li>Tokyo</li>
+            <li>Patna</li>
+            <li>Pune</li>
+        </ul>
+        <button id="highLightFirstCity">HighLight First city</button>
+    </section>
+
+<!-- Example 3: Manipulating DOM ELements -->
+    <section id="example-3">
+        <h2>Manipulating DOM Elements</h2>
+        <div id="coffeeOrder">
+            Order: <span id="coffeType"> Latte </span>
+        </div>
+        <button id="changeOrder">Change the order to Espresso</button>
+    </section>
+
+    <section id="example-4">
+        <h2>Creating and Inserting Elements</h2>
+        <button id="addNewItem"> Add a new Item to the Shopping List</button>
+        <ul id="shoppingList">
+            <li>Bread</li>
+            <li>Milk</li>
+        </ul>
+    </section>
+
+
+    <section>
+       <h2>Removing DOM Elements</h2> 
+       <ul id="taskList">
+           <li>Task 1</li>
+           <li>Task 2</li>
+           <li>Task 3</li>
+       </ul>
+
+       <button id="removeLastTask"> Remove Last Task</button>
+    </section>
     <script src="./script.js"></script>
 </body>
 </html>
